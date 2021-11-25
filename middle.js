@@ -30,7 +30,7 @@ const middle = function(array) {
   } else if (array.length % 2 !== 0) {
     return array.slice(array.length / 2, (array.length / 2) + 1);
   }
-}
+};
 
 console.log(middle([1, 2, 3, 4, 5]));
 console.log(middle([1, 2, 3, 4, 5, 6, 7]));
