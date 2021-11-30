@@ -9,3 +9,5 @@ const letterPositions = function(sentence) {
 };
 
 letterPositions('light house labs');
+
+module.exports = letterPositions;

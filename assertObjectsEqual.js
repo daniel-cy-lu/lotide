@@ -63,3 +63,5 @@ const assertObjectsEqual = function(actual, expected) {
 // assertObjectsEqual({name : 'Daniel', age : 35}, {name : 'Daniel', age : 35});
 
 assertObjectsEqual({ a: { z: 1 }, b: 2 }, { a: { z: 1 }, b: 2 });
+
+module.exports = assertObjectsEqual;

@@ -56,3 +56,5 @@ const array3 = [true, false, false, false, true];
 const result3 = map(array3, x => x === true ? false : true);
 
 assertArraysEqual(result3, array3.map(x => x === true ? false : true));
+
+module.exports = map;

@@ -12,3 +12,5 @@ const countLetters = function(sen) {
   return Obj;
 };
 
+module.exports = countLetters;
+
