@@ -5,9 +5,9 @@ const letterPositions = function(sentence) {
       results[sentence[i]] ? (results[sentence[i]]).push(i) : results[sentence[i]] = [i];
     }
   }
-  console.log(results);
+  return results;
 };
 
-letterPositions('light house labs');
+console.log(letterPositions('light house labs'));
 
 module.exports = letterPositions;
